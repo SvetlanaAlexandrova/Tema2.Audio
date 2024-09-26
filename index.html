@@ -22,10 +22,6 @@
       gesture-detector
       id="scene"
     >
-      <a-assets>
-        <img id="my-image" src="pchel.jpg">
-      </a-assets>
-
       <a-marker
         type="pattern"
         url="pattern.patt"
@@ -34,8 +30,7 @@
         cursor="fuse: false; rayOrigin: mouse;"
         id="markerA"
       >
-        <a-image src="#my-image" rotation="-90 0 0">
-        </a-image>
+        <a-sound src="sirotkin.mp3"></a-sound>
       </a-marker>
       
       <a-entity camera></a-entity>
